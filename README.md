@@ -1,7 +1,7 @@
-<h1>Memoria del proyecto 2ª de evaluación de Lenguajes de Marcas - 1º DAW</h1>
+<h1>Memoria del proyecto</h1>
 <h2>Web - La Morada del Cuervo</h2>
-<p>Enlaces directo a web navegable:</p>
-- <a href="https://antoniocorderomolina.github.io/LaMoradaDelCuervo/landingpage.html">Web navegable del proyecto</a>
+<p>Enlace directo a web navegable:</p>
+- <a href="https://antcordero.github.io/LaMoradaDelCuervo/landingpage.html" target="_blank">Web navegable del proyecto</a>
 <h2>Índice</h2>
 <ul>
   <li><a href="#introduccion">Introducción</a></li>
@@ -11,8 +11,7 @@
 </ul>
 
 <h2 id="introduccion">Introducción</h2>
-<p>Trabajo realizado por: Antonio Cordero Molina</p>
-<p>Proyecto de web desde cero de 2ª evaluación del módulo Lenguajes de Marcas</p>
+<p>Trabajo realizado por: Antonio Cordero</p>
 <p>Febrero de 2024</p>
 <p>Licencia CC-BY</p>
 
