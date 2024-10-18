@@ -2,7 +2,7 @@
 /*          Script for La Morada del Cuervo website       */
 /*          author: Antonio Cordero Molina                */
 /*          version: 2.0                                  */
-/*          comments: class project 2023-24               */
+/*          comments: project 2024                        */
 /**********************************************************/
 
 function validacion(){
