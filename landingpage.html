@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Morada del Cuervo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/landinpageStyle.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div id="wrapper" class="bg-transparent">
+
+        <!-- navbar from bootstrap v5.3 -->
+        <nav class="navbar navbar-expand-lg terciary-color sticky-top z-index">
+
+            <div class="container-fluid">
+
+                <!-- brand icon logo -->
+                <a class="navbar-brand" href="#"><img src="./img/logo.svg" class="w-10" alt="La Morada del Cuervo logo"></a>
+                
+                <!-- hamburguer icon -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- menu links that collapse when viewport is narrow -->
+                <div class="collapse navbar-collapse fw-bold" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- First button whith link-->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <!-- Second button whith link-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#intro">Conoce al autor</a>
+                        </li>
+                        <!-- Third button whith link-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reviews">Reseñas</a>
+                        </li>
+                        <!-- Forth button whith link-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Galería</a>
+                        </li>
+                        <!-- Fifth button whith link-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shop">¿Dónde comprar?</a>
+                        </li>
+                        <!-- Fifth button whith link (CONTACT)-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">Subscríbete</a>
+                        </li>
+                        <!-- Sixth button whith link (CONTACT)-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HERO SECTION with backgorund image -->
+        <header id="hero" class="vh-100">
+            <!-- Button style from CodePen -->
+            <div class="container">
+                <div class="col-md-4 col-sm-4 margin-bottom-40 button-position">
+                    <a href="#gallery" class="btn btn-mod btn-border btn-circle btn-large fw-bold style-text-text">
+                        Nuevas Reviews!
+                    </a>
+                </div>
+            </div>
+        </header> 
+
+        <!-- INTRO SECTION with BOOTSTRAP GRID -->
+        <section id="intro" class="p-5">
+            <h1 class="display-3 text-center fw-bold style-text-titles mb-5">Conoce al autor</h1>
+            <!-- grid in two columns -->
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-12 col-md-6 style-text-text mb-md-0">
+                        <p class="text-lg fs-4 mt-5">
+                            ¡Bienvenidos a <span class="text-secondary-color"><i><b>La Morada del Cuervo</b></i></span>,  el refugio del misterioso maestro de las letras y las viñetas! Nuestro enigmático autor <span class="text-secondary-color"><i><b>Zelkas</b></i></span> te guiará a través de reseñas vibrantes y recomendaciones literarias que te transportarán a mundos desconocidos.
+                        </p>
+                        <p class="text-lg fs-4 mt-4">
+                            ¡Acompáñanos en este viaje y déjate cautivar por el encanto único que solo él puede ofrecerte!
+                        </p>  
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="./img/autor_img.jpg" alt="foto del autor" class="w-75 mx-auto d-block rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- REVIEW SECTION -->
+        </section id="reviews" class="p-5">
+
+            <h1 class="display-2 text-center fw-bold style-text-titles mb-5">Reseñas</h1>
+            <p class="display-6 text-center style-text-text mb-5">Conoce las <span class="text-secondary-color">últimas reseñas</span></p>
+
+            <div class="container mb-3">
+                <div class="row g-3">
+
+                    <!-- card from bootstrap v5.3 -->
+                    <!-- Card 1-->
+                    <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+                        <div class="card">
+                            <img src="./img/review1.jpg" class="card-img-top" alt="first review image">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold style-text-titles">Sakamoto Days - vol.11</h5>
+                                <p class="card-text style-text-text"><i>by Yuto Suzuki</i></p>
+                                <a href="https://www.instagram.com/p/C3DVvjxIP6r/" target="_blank" class="btn btn-outline-danger mx-auto w- d-block">
+                                    Ver Reseña
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of card 1 -->
+
+                    <!-- Card 2-->
+                    <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+                        <div class="card">
+                            <img src="./img/review2.jpg" class="card-img-top" alt="second review image">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold style-text-titles">Este del Oeste - Año uno</h5>
+                                <p class="card-text style-text-text"><i>by Hickman</i></p>
+                                <a href="https://www.instagram.com/p/C2z15f6oIc_/" target="_blank" class="btn btn-outline-danger mx-auto w- d-block">
+                                    Ver Reseña
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of card 2 -->
+
+                    <!-- Card 3 -->
+                    <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+                        <div class="card">
+                            <img src="./img/review3.jpg" class="card-img-top" alt="third reviews image">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold style-text-titles">Kaina of the Great Snow Sea - vol.2
+                                </h5>
+                                <p class="card-text style-text-text"><i>by Takemoto Nihei</i></p>
+                                <a href="https://www.instagram.com/p/C2aDR77Ic1-/" target="_blank" class="btn btn-outline-danger mx-auto w- d-block">
+                                    Ver Reseña
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of card 3 -->
+
+                    <!-- Card 4 -->
+                    <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+                        <div class="card">
+                            <img src="./img/review4.jpg" class="card-img-top" alt="forth review image">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold style-text-titles">Frieren <br>- vol.8</h5>
+                                <p class="card-text style-text-text"><i>by Kanehito Yamada</i></p>
+                                <a href="https://www.instagram.com/p/C0zKPdCoUNW/" target="_blank" class="btn btn-outline-danger mx-auto w- d-block">
+                                    Ver Reseña
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of card 4 -->
+                    
+                    <!-- Card 5 -->
+                    <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+                        <div class="card">
+                            <img src="./img/review5.jpg" class="card-img-top" alt="fifht review image">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold style-text-titles">El Camino de la Espada</h5>
+                                <p class="card-text style-text-text"><i>by Thomas Day</i></p>
+                                <a href="https://www.instagram.com/p/CzBijRHIfI_/" target="_blank" class="btn btn-outline-danger mx-auto w- d-block">
+                                    Ver Reseña
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of card 5 -->
+
+                    <!-- Card 6 -->
+                    <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+                        <div class="card">
+                            <img src="./img/review6.jpg" class="card-img-top" alt="sixht review image">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold style-text-titles">Sun-Ken Rock - vol.12</h5>
+                                <p class="card-text style-text-text"><i>by Boichi</i></p>
+                                <a href="https://www.instagram.com/p/CveuJFsoVgF/" target="_blank" class="btn btn-outline-danger mx-auto w- d-block">
+                                    Ver Reseña
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of card 6 -->
+
+                </div>
+            </div>
+        
+            <!-- GALLERY -->
+            <section id="gallery" class="p-5 text-center">
+                <h1 class="display-2 text-center fw-bold style-text-titles mb-5">Una "mijitilla" sobre...</h1>
+                <p class="display-6 text-center style-text-text mb-5">Conoce esta <span class="text-secondary-color">galería de reviews</span> en menos de un minuto</p>
+            
+                <div class="container">
+                    <div class="row d-flex flex-wrap align-items-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 video-gallery-item">
+                            <video controls>
+                                <source src="./videos/video1.mp4" type="video/mp4">
+                                Su navegador no admite el elemento de video.
+                            </video> 
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 video-gallery-item">
+                            <video controls>
+                                <source src="./videos/video2.mp4" type="video/mp4">
+                                Su navegador no admite el elemento de video.
+                            </video>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 video-gallery-item">
+                            <video controls>
+                                <source src="./videos/video3.mp4" type="video/mp4">
+                                Su navegador no admite el elemento de video.
+                            </video>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 video-gallery-item">
+                            <video controls>
+                                <source src="./videos/video4.mp4" type="video/mp4">
+                                Su navegador no admite el elemento de video.
+                            </video>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 video-gallery-item">
+                            <video controls>
+                                <source src="./videos/video5.mp4" type="video/mp4">
+                                Su navegador no admite el elemento de video.
+                            </video>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 video-gallery-item">
+                            <video controls>
+                                <source src="./videos/video6.mp4" type="video/mp4">
+                                Su navegador no admite el elemento de video.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- ACCORDION From GetBootStrap-->
+        <section id="shop" class="p-5">
+
+            <h1 class="display-2 text-center fw-bold style-text-titles mb-5">¿Dónde comprar?</h1>
+            <p class="display-6 text-center style-text-text mb-5">Encuentra las <span class="text-secondary-color">mejores tiendas</span> físicas y en  líneas</p>
+
+            <div class="accordion rounded-3" id="accordionExample">
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold style-text-titles fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Kokoro Mangas
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="container">
+                                <div class="row g-5">
+                                    <div class="col-12 col-md-6 style-text-text mb-md-0">
+                                        <p class="text-lg fs-4 mt-5 style-text-text">
+                                            Este acogedor rincón, te recibe con una amplia selección de cómics que aguardan ser descubiertos. Sumérgete en este universo y déjate llevar por la magia que se esconde entre sus estantes.
+                                        </p>
+                                        <p class="text-lg fs-4 mt-4 style-text-text text-center">
+                                            <a href="http://www.kokoromangas.com/" class="text-decoration-none text-secondary-color">Página web</a>
+                                        </p>  
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="ratio ratio-1x1 w-75 mx-auto">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.9852460934503!2d-4.424535423469201!3d36.72291557205106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7be4004cc2b%3A0x4f30b9f853571dac!2sKokoro%20Mangas!5e0!3m2!1ses!2ses!4v1708122035368!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold style-text-titles fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        EnPortada Comics
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="container">
+                                <div class="row g-5">
+                                    <div class="col-12 col-md-6 style-text-text mb-md-0">
+                                        <p class="text-lg fs-4 mt-5 style-text-text">
+                                            Este amplio local, con llamativas paredes naranjas y suelo de parqué, ofrece una extensa variedad de cómics.
+                                        </p>
+                                        <p class="text-lg fs-4 mt-4 style-text-text text-center">
+                                            <a href="https://www.enportadacomics.com/" class="text-decoration-none text-secondary-color">Página web</a>
+                                        </p>  
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="ratio ratio-1x1 w-75 mx-auto">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.980099600746!2d-4.424669923469185!3d36.72303917204431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7be6a85c86f%3A0x4dde5936e551d327!2sEn%20Portada%20C%C3%B3mics!5e0!3m2!1ses!2ses!4v1708122167000!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold style-text-titles fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Comic Stores Málaga
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="container">
+                                <div class="row g-5">
+                                    <div class="col-12 col-md-6 style-text-text mb-md-0">
+                                        <p class="text-lg fs-4 mt-5 style-text-text">
+                                            Tienda de cómics fantásticos, de ciencia ficción y manga, que también vende juegos de mesa y merchandising en Málaga.
+                                        </p>
+                                        <p class="text-lg fs-4 mt-4 style-text-text text-center">
+                                            <a href="https://comicstores.es/" class="text-decoration-none text-secondary-color">Página web</a>
+                                        </p>  
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="ratio ratio-1x1 w-75 mx-auto">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.377135269294!2d-4.438185523469559!3d36.71350277258087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f79c5c7b9041%3A0xfe50d538b8aa84f4!2sComic%20Stores!5e0!3m2!1ses!2ses!4v1708121121975!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-3"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold style-text-titles text-center fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Comic Stores Granada
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="container">
+                                <div class="row g-5">
+                                    <div class="col-12 col-md-6 style-text-text mb-md-0">
+                                        <p class="text-lg fs-4 mt-5 style-text-text">
+                                            Tienda de cómics fantásticos, de ciencia ficción y manga, que también vende juegos de mesa y merchandising en Granada.
+                                        </p>
+                                        <p class="text-lg fs-4 mt-4 style-text-text text-center">
+                                            <a href="https://comicstores.es/" class="text-decoration-none text-secondary-color">Página web</a>
+                                        </p>  
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="ratio ratio-1x1 w-75 mx-auto">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.105249622263!2d-3.609354123454952!3d37.17396964653996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fc93f40e791d%3A0x22215d1157103392!2sC%C3%B3mic%20Stores%20(Granada)!5e0!3m2!1ses!2ses!4v1708122306910!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT FROM with form from getbootstrap -->
+        <section id="subscribe" class="p-5">
+
+            <h1 class="display-2 text-center fw-bold style-text-titles mb-5">Subscríbete</h1>
+            <p class="display-6 text-center style-text-text mb-5">¡Subscríbete y no te pierdas ninguna novedad!</p>
+
+            <div class="container col-lg-6">
+                <div class="text-center">
+                    <p class="text-lg fs-4 mt-5 style-text-text fs-4">
+                        Toda la información sobre el mundo del cómic, con noticias, reseñas, debates y primeras impresiones sobre las últimas novedades.
+                    </p>
+                    <p class="style-text-titles fw-bold fs-3">
+                        "Y que cada uno de nosotros <span class="text-secondary-color">le dé al diablo su merecido</span>"
+                    </p>
+                    <p class="style-text-text fs-5">
+                        Read or die
+                    </p>
+                </div>
+                    
+                <!-- CONTAC FORM -->
+                <div class="col-12">
+                    <form action="" method="post" onsubmit="return validacion()" class="border border-secondary p-5 rounded-3">
+
+                        <!-- NOMBRE -->
+                        <div class="mb-3 style-text-text">
+                            <label for="nombre" class="form-label">Nombre: <span class="text-danger">*</span> </label>
+                            <input onchange="resetar('nombre')" type="text" class="form-control" id="nombre" name="nombre" aria-describedby="nombreHelp">
+                            <div id="nombreHelp" class="form-text text-danger">Nombre obligatorio</div>
+                        </div>
+
+                        <!-- APELLIDOS -->
+                        <div class="mb-3 style-text-text">
+                            <label for="apellidos" class="form-label">Apellidos: <span class="text-danger">*</span> </label>
+                            <input onchange="resetear('apellidos')" type="text" class="form-control" id="apellidos" name="apellidos" aria-describedby="apellidosHelp">
+                            <div id="apellidosHelp" class="form-text text-danger">Apellidos obligatorio</div>
+                        </div>
+
+                        <div class="mb-3 style-text-text">
+                            <label for="email" class="form-label">Email: <span class="text-danger">*</span></label>
+                            <input onchange="resetear('email')" type="text" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text text-danger">Formato de correo erróneo</div>
+                        </div>
+
+                        <div class="mb-3 style-text-text">
+                            <label for="Provincia" class="form-label">Provincia: <span class="text-secondary-color">*</span></label>
+                                <select class="form-select" aria-label="Default select example" id="provincia" name="provincia">
+                                    <option value="0">Elige provincia</option>
+                                    <option value="1">Álava</option>
+                                    <option value="2">Albacete</option>
+                                    <option value="3">Alicante</option>
+                                    <option value="4">Almería</option>
+                                    <option value="5">Asturias</option>
+                                    <option value="6">Ávila</option>
+                                    <option value="7">Badajoz</option>
+                                    <option value="8">Barcelona</option>
+                                    <option value="9">Burgos</option>
+                                    <option value="10">Cáceres</option>
+                                    <option value="11">Cádiz</option>
+                                    <option value="12">Cantabria</option>
+                                    <option value="13">Castellón</option>
+                                    <option value="14">Ciudad Real</option>
+                                    <option value="15">Córdoba</option>
+                                    <option value="16">Cuenca</option>
+                                    <option value="17">Gerona</option>
+                                    <option value="18">Granada</option>
+                                    <option value="19">Guadalajara</option>
+                                    <option value="20">Guipúzcoa</option>
+                                    <option value="21">Huelva</option>
+                                    <option value="22">Huesca</option>
+                                    <option value="23">Islas Baleares</option>
+                                    <option value="24">Jaén</option>
+                                    <option value="25">La Coruña</option>
+                                    <option value="26">La Rioja</option>
+                                    <option value="27">Las Palmas</option>
+                                    <option value="28">León</option>
+                                    <option value="29">Lérida</option>
+                                    <option value="30">Lugo</option>
+                                    <option value="31">Madrid</option>
+                                    <option value="32">Málaga</option>
+                                    <option value="33">Murcia</option>
+                                    <option value="34">Navarra</option>
+                                    <option value="35">Orense</option>
+                                    <option value="36">Palencia</option>
+                                    <option value="37">Pontevedra</option>
+                                    <option value="38">Salamanca</option>
+                                    <option value="39">Segovia</option>
+                                    <option value="40">Sevilla</option>
+                                    <option value="41">Soria</option>
+                                    <option value="42">Tarragona</option>
+                                    <option value="43">Santa Cruz de Tenerife</option>
+                                    <option value="44">Teruel</option>
+                                    <option value="45">Toledo</option>
+                                    <option value="46">Valencia</option>
+                                    <option value="47">Valladolid</option>
+                                    <option value="48">Vizcaya</option>
+                                    <option value="49">Zamora</option>
+                                    <option value="50">Zaragoza</option>
+                                    <option value="51">Ceuta</option>
+                                    <option value="52">Melilla</option>
+                                </select>
+                            <div id="provinciaHelp" class="form-text text-danger">Seleccione provincia</div>
+                        </div>
+
+                        <!-- Checkboxes -->
+                        <label for="Genero" class="form-label">Géneros favoritos: </label>
+
+                        <div class="row style-text-text">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="estilo[]" id="drama" value="drama">
+                                    <label class="form-check-label" for="drama">
+                                        Drama
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="estilo[]" id="shojo" value="shojo">
+                                    <label class="form-check-label" for="shojo">
+                                        Acción
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="estilo[]" id="aventuras" value="aventuras">
+                                    <label class="form-check-label" for="aventuras">
+                                        Aventuras
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="estilo[]" id="comedia" value="comedia">
+                                    <label class="form-check-label" for="comedia">
+                                        Comedia
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="estilo[]" id="horror" value="horror">
+                                    <label class="form-check-label" for="horror">
+                                        Horror
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="estilo[]" id="thriller" value="thriller">
+                                    <label class="form-check-label" for="thriller">
+                                        Thriller
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="estilo[]" id="historico" value="historico">
+                                    <label class="form-check-label" for="historico">
+                                        Histórico
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="estilo[]" id="fantasia" value="fantasia">
+                                    <label class="form-check-label" for="fantasia">
+                                        Fantasía
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TÉRMINOS (modal)-->
+                        <div class="my-5 form-check">
+                            <input onchange="resetar('terminos')" type="checkbox" class="form-check-input" id="terminos">
+                            <label class="form-check-label" for="terminos"><a id="trigger" data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-secondary-color text-decoration-none style-text-text fw-bold">Acepto los términos y condiciones</a></label>
+                            <div id="terminosHelp" class="form-text text-danger">Debe aceptar</div>
+                        </div>
+
+                        <button type="submit" class="btn btn-danger">Enviar</button>
+                    </form>
+
+                    <!-- MODAL FORM from GetBootsrap Docs -->
+                    <div class="modal fade style-text-text" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5 style-text-text" id="exampleModalLabel">Términos y Condiciones</h1>
+                                <button type="button" class="btn-close btn btn-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body style-text-text">
+                                <ol>
+                                    <li>
+                                        <strong class="text-secondary-color">Suscripción y Recepción de Noticias y Ofertas:</strong> Al aceptar estos términos y condiciones, usted autoriza a nuestra plataforma a enviarle noticias, actualizaciones, nuevas reseñas, ofertas especiales y otra información relevante a través del correo electrónico proporcionado.
+                                    </li>
+                                    <li>
+                                        <strong class="text-secondary-color">Privacidad y Protección de Datos:</strong> Nos comprometemos a proteger su privacidad y sus datos personales de acuerdo con nuestra política de privacidad. No compartiremos su información con terceros sin su consentimiento previo.
+                                    </li>
+                                    <li>
+                                        <strong class="text-secondary-color">Cancelación de la Suscripción:</strong> Usted tiene el derecho de cancelar su suscripción en cualquier momento. Puede hacerlo utilizando el enlace de cancelación de suscripción incluido en nuestros correos electrónicos o poniéndose en contacto con nuestro equipo de soporte.
+                                    </li>
+                                    <li>
+                                        <strong class="text-secondary-color">Responsabilidad:</strong> Nos esforzamos por proporcionar información precisa y útil en nuestros correos electrónicos y comunicaciones. Sin embargo, no podemos garantizar la precisión o la disponibilidad continua de nuestros servicios en todo momento.
+                                    </li>
+                                    <li>
+                                        <strong class="text-secondary-color">Actualizaciones y Cambios:</strong> Nos reservamos el derecho de actualizar o modificar estos términos y condiciones en cualquier momento. Se le notificará cualquier cambio importante en nuestras políticas.
+                                    </li>
+                                </ol>
+                                <p>Al hacer clic en <span class="text-secondary-color">"Aceptar"</span> a continuación, usted confirma que ha leído, entendido y aceptado los términos y condiciones anteriores.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger style-text-text fw-bold" data-bs-dismiss="modal">Aceptar</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER with grid in 3 irregular columns-->
+        <footer class="terciary-color">
+            <div class="container p-4 pt-lg-5">
+                <div class="row g-3 g-md-5">
+
+                    <!-- LOGO -->
+                    <div class="col-12 col-md-6 col-lg-3 p-3 mb-lg-5">
+                        <img src="./img/logo.svg" class="w-50" alt="La Morada del Cuervo logo">
+                    </div>
+
+                    <!-- NAVBAR in footer -->
+                    <div class="col-12 col-md-6 col-lg-3 p-3 mb-lg-5">
+                        <a id="footerHyperLink" href="#" class="footerlink text-primary-color style-text-titles text-decoration-none lead ms-lg-5 ps-2">Inicio<br></a>
+                        <a id="footerHyperLink" href="#intro" class="footerlink text-primary-color style-text-titles text-decoration-none lead ms-lg-5 ps-2">Conoce al autor<br></a>
+                        <a id="footerHyperLink" href="reviews" class="footerlink text-primary-color style-text-titles text-decoration-none lead ms-lg-5 ps-2">Reseñas<br></a>
+                        <a id="footerHyperLink" href="#gallery" class="footerlink text-primary-color style-text-titles text-decoration-none lead ms-lg-5 ps-2">Galería<br></a>
+                        <a id="footerHyperLink" href="#shop" class="footerlink text-primary-color style-text-titles text-decoration-none lead ms-lg-5 ps-2">¿Donde comprar?<br></a>
+                        <a id="footerHyperLink" href="#subscribe" class="footerlink text-primary-color style-text-titles text-decoration-none lead ms-lg-5 ps-2">Subscríbete<br></a>
+                    </div>
+
+                    <!-- SOCIAL MEDIA -->
+                    <div class="col-12 col-md-6 col-lg-3 p-3 mb-lg-5">
+
+                        <h3 class="fw-bold style-text-titles">Síguenos en</h3>
+                    
+                        <div>
+                            <a id="footerHyperLink" class="socialbtn m-1 rounded-5 lead text-primary-color fs-1" href="https://m.facebook.com/p/La-Morada-del-Cuervo-100064769209954/?locale=en_GB" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a id="footerHyperLink" class="socialbtn m-1 rounded-5 lead text-primary-color fs-1" href="https://twitter.com/lamoradadelcue1" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a id="footerHyperLink" class="socialbtn m-1 rounded-5 lead text-primary-color fs-1" href="https://www.instagram.com/moradadelcuervo/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a id="footerHyperLink" class="socialbtn m-1 rounded-5 lead text-primary-color fs-1" href="https://www.tiktok.com/@moradadelcuervo" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- CONTACT INFO -->
+                    <div class="col-12 col-md-6 col-lg-3 p-3 mb-5">
+        
+                        <h3 class="fw-bold style-text-titles">Contáctanos<br></h3>
+                        <p><a id="footerHyperLink" href="mailto:lamoradadelcuervo@gmail.com" target="_blank" class="text-decoration-none text-primary-color style-text-text">lamoradadelcuervo@gmail.com</a></p>
+                        <a id="contact" href="https://linktr.ee/Zelkas" target="_blank" class="resourcesbtn btn d-block bg-danger text-white w-50 rounded-3 style-text-text">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/landingpageJS.js"></script>    <!-- Script para validaciones -->
+
+</body>
+</html>

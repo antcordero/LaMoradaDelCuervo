@@ -1,0 +1,236 @@
+/**********************************************************/
+/*          Style sheet for La Morada del Cuervo website  */
+/*          author: Antonio Cordero Molina                */
+/*          version: 2.0                                  */
+/*          comments: class project 2023-24               */
+/**********************************************************/
+
+
+/*******************************## COLOURS ##**********************************/
+
+/*
+    primary-color: #f5f5f5
+    secondary-color: #ec1a24
+    terciary-color: #868786
+
+*/
+
+/********************************## FONTS ##***********************************/
+
+@font-face {
+    font-family: text;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: titles;
+    src: url(../fonts/Allan-Regular.ttf);
+}
+
+/*######################### GENERAL LAYOUT STYLE ##############################*/
+
+body {
+    background-image:url(../img/background.jpg);
+}
+
+/***************** colors ******************/
+.primary-color {
+    background-color: #f5f5f5;
+}
+
+.secondary-color {
+    background-color: #ec1a24;;
+}
+
+.terciary-color {
+    background-color: #868786;
+}
+
+.text-primary-color {
+    color: #f5f5f5;
+}
+
+.text-secondary-color {
+    color: #ec1a24;
+}
+
+a:active {
+    color: #ec1a24;
+}
+
+a:hover {
+    color: #868786;
+}
+
+/**************** text *******************/
+.style-text-titles {
+    font-family: titles;
+    letter-spacing: 2px;
+}
+
+.style-text-text {
+    font-family: text;
+}
+
+
+/*############################ NAVBAR STYLE ###################################*/
+
+.w-10 {
+    width: 40px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ec1a24;
+}
+
+/*########################### HERO SECTION STYLE ##############################*/
+
+#hero {
+    background-image: url('../img/hero_img.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.button-position {
+    position: absolute;
+    top: 25%;
+    left: 59.3%;
+    transform: translate(-50%,-50%);
+}
+
+/***************** Button Style from CodePen *******************/
+
+/* Button Sizes*/
+
+.btn-mod.btn-large {
+    height: auto;
+    padding: 13px 52px;
+    font-size: 15px;
+}
+
+.btn-mod.btn-medium {
+    height: auto;
+    padding: 10px 35px;
+    font-size: 13px;
+}
+
+.btn-mod.btn-small {
+    height: auto;
+    padding: 6px 16px;
+    font-size: 12px;
+}
+
+/* Button Mod to the original Bootstrap Buttons */
+
+.btn-mod.btn-circle {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.btn-mod.btn-border {
+    color: #ec1a24;
+    border: 3px solid #ec1a24;
+    background: transparent;
+}
+
+.btn-mod, a.btn-mod {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 4px 13px;
+    color: #f5f5f5;
+    background: #f5f5f5;
+    border: 2px solid transparent;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.btn-mod.btn-border:hover, .btn-mod.btn-border:focus{
+    color: black;
+    border-color: transparent;
+    background: #ec1a24;
+}
+
+.btn-mod:hover, .btn-mod:focus, a.btn-mod:hover, a.btn-mod:focus {
+    font-weight: 400;
+    color: #f5f5f5;
+    background: black;
+    text-decoration: none;
+    outline: none;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/********************* Button Style Ends ***********************/
+
+/*########################### CARD SECTION STYLE ##############################*/
+
+.card:hover {
+    box-shadow: 5px 5px #ec1a24;
+}
+
+/*########################## GALLERY SECTION STYLE ############################*/
+
+.video-gallery-item video {
+    width: 100%;
+    height: auto;
+}
+
+/*########################## ACCORDION SECTION STYLE ##########################*/
+
+.accordion-header {
+    background-color: #ec1a24;
+    color: #ec1a24;
+}
+
+/*############################## FOOTER STYLE #################################*/
+
+#footerHyperLink {
+    color: #f5f5f5 !important;
+}
+
+#footerHyperLink:hover {
+    color: #ec1a24 !important;
+}
+
+/*############################## RESPONSIVE ###################################*/
+/*############################## FOR MOBILE ###################################*/
+
+@media screen and (width<850px) {
+
+    #hero {
+    background-image: url(../img/hero_section_mobile.png);
+    background-size: cover;
+    background-position: center;   
+    }
+
+    .video-gallery-item video {
+        width: 50%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-position {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+}
